@@ -23,3 +23,12 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+input1 = input("say any word: ")
+input2 = input("say any other word: ")
+input3 = input("say any other word: ")
+input4 = input("say any other word: ")
+input5 = input("say any other word: ")
+
+awesome = [input1,input2,input3,input4,input5]
+print(awesome)

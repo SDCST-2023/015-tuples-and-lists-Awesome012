@@ -25,3 +25,7 @@ The largest number you entered is 92
 """
 
 
+height = 10
+height = int(height)
+
+for i in range(height):
