@@ -25,3 +25,34 @@ The largest number you entered is 92
 """
 
 
+input1 = input("input a number: ")
+input2 = input("input a number: ")
+input3 = input("input a number: ")
+input4 = input("input a number: ")
+input5 = input("input a number: ")
+input6 = input("input a number: ")
+input7 = input("input a number: ")
+input8 = input("input a number: ")
+input9 = input("input a number: ")
+input10 = input("input a number: ")
+
+input1 = int(input1)
+input2 = int(input2)
+input3 = int(input3)
+input4 = int(input4)
+input5 = int(input5)
+input6 = int(input6)
+input7 = int(input7)
+input8 = int(input8)
+input9 = int(input9)
+input10 = int(input10)
+
+list = [input1, input2, input3, input4, input5, input6, input7, input8, input9, input10]
+nice = -1
+if -1 in list:
+    cool = list.index(nice)
+    del list[cool:]
+list.sort()
+awesome = list[-1]
+
+print(f"the biggest number you inputed is: {awesome}")
